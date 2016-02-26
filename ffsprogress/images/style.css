@@ -1,0 +1,85 @@
+@charset "utf-8";
+.nav {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 18px;
+}
+.text {
+	color: 600;
+}
+body {
+	background-color: #000;
+	color: #C7D1DA;
+}
+/* CSS Document */
+
+#container {
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #000;
+}
+#header  {
+	float: left;
+	width: 1024px;
+	background-color: #000;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	padding: 0px;
+	height: 285px;
+}
+#container #header #web-buttons-iduvqid {
+	margin-left: 20px;
+}
+
+#headtext {
+	color: #FFF;
+	float: left;
+	height: 60px;
+	width: 550px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 57px;
+	font-weight: bold;
+	padding-left: 30px;
+	margin-top: 10px;
+}
+#container #lside {
+	float: left;
+	width: 600px;
+	clear: none;
+}
+#container #sldcont {
+	background-color: #000;
+	float: left;
+	width: 1024px;
+	font-size: 18px;
+	padding: 0px;
+}
+#sldcont #picshome {
+	clear: both;
+	float: left;
+	width: 1024px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+#sldcont #picshome #ffpic {
+	float: left;
+	width: 340px;
+	clear: none;
+}
+
+#container #form {
+}
+#container #text {
+	clear: both;
+	float: left;
+	width: 1024px;
+	background-color: #000;
+	height: 270px;
+}
