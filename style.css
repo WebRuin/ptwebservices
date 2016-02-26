@@ -42,6 +42,12 @@ p.phone-number{
 #nav ul {
 	width: 92%;
 }
+
+#list ul,
+#form-all ul{
+	list-style-type: none;
+}
+
 #footer {
 	height: 40px;
 	width: 937px;
