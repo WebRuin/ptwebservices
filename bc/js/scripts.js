@@ -1,6 +1,5 @@
-$(function() {
+;( function( $ ) {
 
-  $( ".lb_bike-build" ).rlightbox();
-  console.log('hi');
+	$( '.lb_bike-build' ).swipebox( );
 
-});
+} )( jQuery );

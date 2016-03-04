@@ -7,10 +7,9 @@
   <title>Brian's Custom Test</title>
   <meta name="description" content="Brian's Custom Test">
   <meta name="author" content="SitePoint">
-  <link href='https://fonts.googleapis.com/css?family=Molle:400italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Knewave' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/styles.css?v=1.0">
-  <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.16.custom.css?v=1.0" />
-  <link rel="stylesheet" href="css/lightbox.min.css?v=1.0">
+  <link rel="stylesheet" href="css/swipebox.min.css?v=1.0">
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -33,16 +32,26 @@
   <a href="images/IMG_9133.JPG" title="See if you can set this in somewhere please. Thanks for everything.  Let me know when you have 2-3 hours in this project." class="lb_bike-build">5</a>
   <a href="images/IMG_9156.PNG" title=":)" class="lb_bike-build">5</a>
 
-  <script src="js/jquery-1.6.4.min.js"></script>
-  <script src="js/jquery.ui.core.min.js"></script>
-  <script src="js/jquery.ui.widget.min.js"></script>
-  <script src="js/jquery.ui.rlightbox.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="js/jquery.swipebox.min.js"></script>
   <script src="js/scripts.js"></script>
   <script type="text/javascript">
-    jQuery(function($) {
-	     $( ".lb_bike-build" ).rlightbox();
-       console.log('hi');
-    });
-</script>
+  ;( function( $ ) {
+
+  	$( '.swipebox' ).swipebox( {
+  		useCSS : true, // false will force the use of jQuery for animations
+  		useSVG : true, // false to force the use of png for buttons
+  		initialIndexOnArray : 0, // which image index to init when a array is passed
+  		hideCloseButtonOnMobile : false, // true will hide the close button on mobile devices
+  		hideBarsDelay : 3000, // delay before hiding bars on desktop
+  		videoMaxWidth : 1140, // videos max width
+  		beforeOpen: function() {}, // called before opening
+  		afterOpen: null, // called after opening
+  		afterClose: function() {}, // called after closing
+  		loopAtEnd: false // true will return to the first image after the last image is reached
+  	} );
+
+  } )( jQuery );
+  </script>
 </body>
 </html>
