@@ -30,6 +30,17 @@
 	color: #FFF;
 }
 
+#centerblock #form #hislider1 {
+	clear: both;
+	float: left;
+	height: 500px;
+	width: 400px;
+	margin-top: 100px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+
 #container #centerblock {
 	clear: left;
 	float: left;
@@ -55,6 +66,11 @@
 	padding-bottom: 0px;
 	padding-left: 20px;
 }
+
+#centerblock{
+	position: relative;
+}
+
 #centerblock #left #spacelft {
 	clear: left;
 	float: left;
@@ -118,7 +134,7 @@
 	float: left;
 	height: 398px;
 	width: 360px;
-	margin-top: 0px;
+	margin-top: 110px;
 	margin-right: 20px;
 	margin-bottom: 0px;
 	margin-left: 0px;
@@ -159,6 +175,14 @@
 	padding-left: 4px;
 }
 
+.csslider1 {
+	display: inline-block;
+	position: relative;
+	max-width: 400px;
+	width: 100%;
+	margin-top: 10px;
+}
+
 .right-images{
 	width: 270px;
 	float: left;
@@ -166,9 +190,11 @@
 
 .intro {
 	display: block;
-	width: 500px;
+	width: 400px;
 	float: right;
-	margin: 5em 2em 0px -4em;
+	position: absolute;
+	top: 210px;
+	left: 340px;
 }
 
 .footer {
