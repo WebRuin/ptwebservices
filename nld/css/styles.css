@@ -37,7 +37,7 @@ header h2{
 .white-bkg{
   width: inherit;
   height: inherit;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 header{
@@ -78,13 +78,24 @@ header{
   display: block;
 }
 
-content-left > p{
+.content-left > p{
   font-size: 1.5rem;
   line-height: 1.5;
 }
 
-content-left > ul{
+.content-left > ul{
   list-style-type: none;
   line-height: 2;
   font-size: 1.25rem;
+}
+
+footer{
+  color: #fff;
+  height: 100px;
+  text-align: center;
+  background-color: #535353;
+}
+
+footer > p{
+  line-height: 6.2;
 }
