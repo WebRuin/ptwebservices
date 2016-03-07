@@ -97,5 +97,6 @@ footer{
 }
 
 footer > p{
+  margin: 0;
   line-height: 6.2;
 }
