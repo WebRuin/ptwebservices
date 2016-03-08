@@ -79,14 +79,16 @@ header{
 }
 
 .content-left > p{
+line-height: 1.5;
   font-size: 1.5rem;
-  line-height: 1.5;
+  margin-bottom: 5px;
 }
 
 .content-left > ul{
-  list-style-type: none;
-  line-height: 2;
+  margin-top: 0;
+  line-height: 1.5;
   font-size: 1.25rem;
+  list-style-type: none;
 }
 
 footer{
